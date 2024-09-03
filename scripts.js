@@ -17,7 +17,7 @@ document.getElementById('add-table').addEventListener('click', function() {
             <div>
                 <input type="text" placeholder="Nome" required>
                 <input type="number" placeholder="Número de vezes" required>
-                <button class="delete-row">Apagar Linha</button>
+                <button class="delete-row">X</button>
             </div>
         </div>
         <button class="add-row">Adicionar Linha</button>
@@ -36,7 +36,7 @@ document.getElementById('add-table').addEventListener('click', function() {
         rowContainer.innerHTML = `
             <input type="text" placeholder="Nome" required>
             <input type="number" placeholder="Número de vezes" required>
-            <button class="delete-row">Apagar Linha</button>
+            <button class="delete-row">X</button>
         `;
         tableContainer.querySelector('.rows-container').appendChild(rowContainer);
 
